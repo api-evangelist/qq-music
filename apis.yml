@@ -1,23 +1,79 @@
 aid: qq-music
+
 name: QQ Music
-description: 'QQ Music is a company surfaced via the API Evangelist harvest backlog (source: music) and
-  added to the network as a stub for full-pipeline profiling.'
+
+description: QQ Music (QQ音乐) is a leading Chinese online music streaming service operated by Tencent. It offers a massive catalog of high‑quality,
+  lossless tracks, personalized playlists, and social sharing features. Users can stream, download, and enjoy curated recommendations across web
+  and mobile platforms, making it a central hub for music entertainment in China.
+
 url: https://raw.githubusercontent.com/api-evangelist/qq-music/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:music
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-23 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-23'
+
 modified: '2026-09-23'
+
 tags:
 - Company
-apis: []
+- Music
+- Streaming
+- Tencent
+- China
+- Entertainment
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/qq-music-llms.txt
+- type: WellKnown
+  url: well-known/qq-music-well-known.yml
+- type: Hosts
+  url: hosts/qq-music-hosts.yml
+- type: Sandbox
+  url: https://sj.qq.com/tag/sandbox
+- type: PrivacyPolicy
+  url: https://privacy.qq.com/mb/policy/tencent-privacypolicy
+- type: DomainSecurity
+  url: security/qq-music-domain-security.yml
 - type: Website
   url: https://y.qq.com/
+- type: DeveloperPortal
+  url: https://open.qq.com/
+- type: Documentation
+  url: https://open.qq.com/
+- type: Support
+  url: https://support.qq.com/product/35224
+
+apis:
+- name: QQ Music API
+  description: Tencent Docs for QQ Music API
+  humanURL: https://docs.qq.com/
+  aid: qq-music:qq-music-api
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Docs at https://docs.qq.com/ are a JavaScript‑rendered SPA, no machine‑readable spec found.
+  evidence:
+  - url: https://docs.qq.com/
+    status: 200
+  checked: 2026-09-23
+x-enrichment:
+  date: '2026-09-23'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

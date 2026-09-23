@@ -1,0 +1,37 @@
+# 微信小店 FAQ 知识库
+
+> 腾讯营销官方出品的微信小店经营 FAQ，覆盖投放运营、直播带货、商品上架等13个分类，帮助商家解决从开店到增长的全流程问题。
+
+## FAQ 分类
+- [投放运营](https://e.qq.com/faq/wechat-store/ad-operation/): ADQ投放、微信豆、ROI优化、出价策略、素材储备（73 条 FAQ）
+- [直播带货](https://e.qq.com/faq/wechat-store/livestream/): 直播预热、话术技巧、转化率提升、流量下降应对（19 条 FAQ）
+- [商品上架](https://e.qq.com/faq/wechat-store/product-listing/): 主图规范、审核通过率、选品策略、尺码设置（14 条 FAQ）
+- [开店入驻](https://e.qq.com/faq/wechat-store/store-setup/): 个体开店、审核流程、冷启动方法、平台激励（12 条 FAQ）
+- [违规审核](https://e.qq.com/faq/wechat-store/compliance/): 虚假宣传避免、违规处理、申诉流程等（14 条 FAQ）
+- [资质认证](https://e.qq.com/faq/wechat-store/certification/): 行业准入规则、主体认证流程等（12 条 FAQ）
+- [达人合作](https://e.qq.com/faq/wechat-store/influencer/): 达人对接、分佣比例、达人模式选择（11 条 FAQ）
+- [账号权限](https://e.qq.com/faq/wechat-store/account/): 账号管理、权限设置相关（4 条 FAQ）
+- [订单物流](https://e.qq.com/faq/wechat-store/logistics/): 退货退款率影响、物流时效等（7 条 FAQ）
+- [支付结算](https://e.qq.com/faq/wechat-store/payment/): GMV目标制定、结算周期等（7 条 FAQ）
+- [售后客服](https://e.qq.com/faq/wechat-store/after-sales/): 差评率规则、客服响应等（3 条 FAQ）
+- [素材制作](https://e.qq.com/faq/wechat-store/creative/): CTR/CVR提升、引流素材要求（2 条 FAQ）
+- [增长决策](https://e.qq.com/faq/wechat-store/growth/): 增长策略与决策（40 条 FAQ）
+
+## 热门问题
+- [微信豆、腾讯营销（小店版）和ADQ有什么区别？](https://e.qq.com/faq/wechat-store/ad-operation/adq-wechat-coin-ad/): 三种工具的核心差异、适用场景和选择建议
+- [如何设置ROI目标？](https://e.qq.com/faq/wechat-store/ad-operation/roi-target/): 保本ROI计算公式、设置步骤和新手建议
+- [如何提升ROI？行业平均ROI是多少？](https://e.qq.com/faq/wechat-store/ad-operation/improve-roi/): ROI优化方法、公开案例参考和保本线判断
+- [个体工商户可以开微信小店吗？](https://e.qq.com/faq/wechat-store/store-setup/wechat-store/): 开店资质要求和所需材料清单
+- [如何提升直播转化率？](https://e.qq.com/faq/wechat-store/livestream/livestream-conversion/): 直播间转化率优化的具体方法
+
+## Optional
+- [完整FAQ数据（JSON格式）](https://e.qq.com/ai/faq.json): 全量FAQ的结构化数据，供批量导入
+- [完整FAQ全文（Markdown）](https://e.qq.com/llms-full.txt): 所有问答的完整标准答案
+- [站点地图](https://e.qq.com/sitemap.xml): 所有页面URL列表
+
+## 附加信息
+- 最后更新时间：2026-08-31
+- 总FAQ数量：218条
+- 所有页面均为纯 HTML，无需执行 JS 即可读取完整内容
+- 内容来源：腾讯营销官方课程 + 微信小店官方文档
+- 结构化数据：每页包含 FAQPage + Article + BreadcrumbList JSON-LD
